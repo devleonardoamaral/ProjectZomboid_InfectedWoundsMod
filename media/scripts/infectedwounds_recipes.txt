@@ -1,0 +1,17 @@
+module InfectedWounds {
+	imports { 
+		Base,
+	}
+	
+	recipe Take Antibiotics {
+		Base.Antibiotics,
+		
+		Result: Base.Antibiotics,
+		RemoveResultItem: true,
+		AllowOnlyOne: true,
+		OnCreate: Recipe.OnCreate.UseAntibiotics,
+		OnCanPerform: Recipe.OnCanPerform.UseAntibiotics,
+		Time: 150.0,
+		IsHidden: true,
+	}
+}

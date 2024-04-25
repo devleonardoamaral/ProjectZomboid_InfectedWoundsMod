@@ -1,0 +1,3 @@
+Tooltip_EN = {
+    Tooltip_Antibiotics = "Extremely effective in combating infections. Does not cure colds, nor prevent zombification. <br> Can be used to treat infections in wounds as well.",
+}
