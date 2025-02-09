@@ -1,0 +1,54 @@
+VERSION = 1,
+
+option InfectedWounds.multipliesByEachWound
+{
+	type = boolean,
+	default = true,
+
+	page = InfectedWounds,
+	translation = InfectedWounds_multipliesByEachWound,
+}
+
+option InfectedWounds.multiplierByEachWound
+{
+	type = double,
+	min = 0.00000001,
+	max = 1.0,
+	default = 0.33333334,
+
+	page = InfectedWounds,
+	translation = InfectedWounds_multiplierByEachWound,
+}
+
+option InfectedWounds.resilientMultiplier
+{
+	type = double,
+	min = 0.00000001,
+	max = 1.0,
+	default = 0.8,
+
+	page = InfectedWounds,
+	translation = InfectedWounds_resilientMultiplier,
+}
+
+option InfectedWounds.proneToIllnessMultiplier
+{
+	type = double,
+	min = 1.0,
+	max = 100.0,
+	default = 1.2,
+
+	page = InfectedWounds,
+	translation = InfectedWounds_proneToIllnessMultiplier,
+}
+
+option InfectedWounds.sicknessOverTime
+{
+	type = double,
+	min = 0.000000001,
+	max = 1.0,
+	default = 0.069444444,
+
+	page = InfectedWounds,
+	translation = InfectedWounds_sicknessOverTime,
+}

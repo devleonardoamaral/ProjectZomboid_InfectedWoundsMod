@@ -1,9 +1,0 @@
-Sandbox_PTBR = {
-	Sandbox_InfectedWounds = "Feridas Infectadas",
-
-	Sandbox_InfectedWounds_multipliesByEachWound = "Multiplicar por cada ferimento:",
-	Sandbox_InfectedWounds_multipliesByEachWound_tooltip = "Quando ativado, cada ferimento infeccionado contribui individualmente para o cálculo da infecção, somando os efeitos de todos os ferimentos. Quando desativado, apenas um cálculo único é aplicado por minuto, independentemente do número de ferimentos infeccionados.",
-
-	Sandbox_InfectedWounds_sicknessOverTime = "Porcentagem de progressão por minuto:",
-	Sandbox_InfectedWounds_sicknessOverTime_tooltip = "Quanto a infecção avança a cada minuto quando o jogador está com uma ferida infeccionada. Essa porcentagem é baseada no nível máximo de doença (100%). <BR> <BR> Observação: Esta configuração não considera a regeneração natural do personagem, então o progresso real pode ser menor ou maior dependendo de outros fatores.",
-}

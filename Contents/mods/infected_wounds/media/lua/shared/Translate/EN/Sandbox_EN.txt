@@ -1,0 +1,21 @@
+Sandbox_EN = {
+    Sandbox_InfectedWounds = "Infected Wounds",
+
+    Sandbox_InfectedWounds_multipliesByEachWound = "Multiply by each wound:",
+    Sandbox_InfectedWounds_multipliesByEachWound_tooltip = "When enabled, each infected wound contributes individually to the infection calculation, summing the effects of all wounds. When disabled, only a single calculation is applied per minute, regardless of the number of infected wounds.",
+
+    Sandbox_InfectedWounds_sicknessOverTime = "Progress percentage per minute:",
+    Sandbox_InfectedWounds_sicknessOverTime_tooltip = "How much the infection progresses each minute when the player has an infected wound. This percentage is based on the maximum sickness level (100%). <BR> <BR> Note: This setting does not account for the character's natural regeneration, so the actual progress may be lower or higher depending on other factors.",
+
+    Sandbox_InfectedWounds_multiplierByEachWound = "Multiplier per additional wound:",
+    Sandbox_InfectedWounds_multiplierByEachWound_tooltip = "Defines the multiplier applied for each additional infected wound. The higher the value, the more the infection progresses for each extra wound. <BR> <BR> Example: If there are 2 wounds and the multiplier is 0.5, the infection progress will be 1.5x the base value.",
+
+    Sandbox_InfectedWounds_resilientMultiplier = "Multiplier for 'Resilient':",
+    Sandbox_InfectedWounds_resilientMultiplier_tooltip = "Defines the multiplier applied to infection progress when the player has the 'Resilient' trait. Lower values reduce the progression of the disease. <BR> <BR> Example: A multiplier of 0.8 reduces infection progression by 20%.",
+
+    Sandbox_InfectedWounds_proneToIllnessMultiplier = "Multiplier for 'Prone to Illness':",
+    Sandbox_InfectedWounds_proneToIllnessMultiplier_tooltip = "Defines the multiplier applied to infection progress when the player has the 'Prone to Illness' trait. Higher values increase the progression of the disease. <BR> <BR> Example: A multiplier of 1.2 increases infection progression by 20%.",
+
+    Sandbox_InfectedWounds_sicknessOverTime = "Infection progression per minute:",
+    Sandbox_InfectedWounds_sicknessOverTime_tooltip = "Controls the rate of infection progression per minute. The higher the value, the faster the character becomes sick due to infected wounds. <BR> <BR> Note: This value is affected by traits such as 'Resilient' and 'Prone to Illness,' as well as the number of infected wounds.",
+}

@@ -1,0 +1,19 @@
+module Base {
+	
+	craftRecipe TakeAntibiotics 
+	{
+		timedAction = Making,
+		Time = 25,
+		AllowBatchCraft = false,
+		OnCreate = Recipe.OnCreate.UseAntibiotics,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Miscellaneous,
+
+		inputs 
+		{
+			item 1 [Base.Antibiotics],
+		}
+		
+		outputs {}
+	}
+}

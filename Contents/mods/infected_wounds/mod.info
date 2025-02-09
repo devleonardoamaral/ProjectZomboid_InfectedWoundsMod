@@ -1,4 +1,5 @@
-name=Infected Wounds [B41]
+modversion=2.0
+name=[B41] Infected Wounds
 poster=poster.png
 id=InfectedWounds
 description=Causes infected wounds to cause fever and death if not properly treated.

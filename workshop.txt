@@ -1,5 +1,13 @@
-version=1
+version=2.0
 id=3086043092
-title=Infected Wounds
-tags=
+title=[B41/B42] Infected Wounds
+description=[h1] How does it work? [/h1]
+description=This mod makes infected wounds sicken the character and introduces a new function for antibiotics. They can now cure infections in wounds, unless the character is under the influence of alcohol, which interrupts the antibiotic's effect.
+description=
+description=[h1] This mod is incompatible with... [/h1]
+description=This mod should not have incompatibilities with other mods. It can be removed at any time during gameplay.
+description=
+description=[h1] Copyright and attribution [/h1]
+description=The code for this mod is available for use; however, it is mandatory to credit the creator when incorporating parts or the entirety of this code into other projects. Proper attribution must be given to the original author when using or modifying this code.
+tags=Build 41;Balance;Hardmode;Items;Multiplayer;Realistic;Silly/Fun;Traits
 visibility=public
