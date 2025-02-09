@@ -1,6 +1,6 @@
-version=2.0
+version=1
 id=3086043092
-title=[B41/B42] Infected Wounds
+title=[B41] Infected Wounds
 description=[h1] How does it work? [/h1]
 description=This mod makes infected wounds sicken the character and introduces a new function for antibiotics. They can now cure infections in wounds, unless the character is under the influence of alcohol, which interrupts the antibiotic's effect.
 description=
