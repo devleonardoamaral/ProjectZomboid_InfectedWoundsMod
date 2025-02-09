@@ -1,0 +1,6 @@
+Sandbox_EN = {
+	Sandbox_InfectedWounds = "Infected Wounds",
+
+	Sandbox_InfectedWounds_sicknessOverTime = "Progression percentage per minute:",
+	Sandbox_InfectedWounds_sicknessOverTime_tooltip = "How much the infection progresses every minute when the player has an infected wound. This percentage is based on the maximum sickness level (100%). <BR> <BR> Note: This setting does not account for the character's natural regeneration, so the actual progression may be lower or higher depending on other factors.",
+}

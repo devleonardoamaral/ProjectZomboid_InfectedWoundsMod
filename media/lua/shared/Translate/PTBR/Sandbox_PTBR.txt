@@ -1,6 +1,0 @@
-Sandbox_PTBR = {
-	Sandbox_InfectedWounds = "Infected Wounds",
-
-	Sandbox_InfectedWounds_sicknessOverTime = "Progressão a cada dez minutos:",
-	Sandbox_InfectedWounds_sicknessOverTime_tooltip = "Porcentagem de avanço da doença a cada dez minutos com machucado infeccionado.<br>Esta configuração não leva em consideração regeneração natural do personagem, então a porcentagem real final será bem menor.",
-}	

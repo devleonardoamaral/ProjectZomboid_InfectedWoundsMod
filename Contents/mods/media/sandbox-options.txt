@@ -1,0 +1,21 @@
+VERSION = 1,
+
+option InfectedWounds.multipliesByEachWound
+{
+	type = boolean,
+	default = false,
+
+	page = InfectedWounds,
+	translation = InfectedWounds_multipliesByEachWound,
+}
+
+option InfectedWounds.sicknessOverTime
+{
+	type = double,
+	min = 0.00000001,
+	max = 1.0,
+	default = 0.27777777,
+
+	page = InfectedWounds,
+	translation = InfectedWounds_sicknessOverTime,
+}

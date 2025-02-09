@@ -1,6 +1,0 @@
-Sandbox_EN = {
-	Sandbox_InfectedWounds = "Infected Wounds",
-
-	Sandbox_InfectedWounds_sicknessOverTime = "Progression every ten minutes:",
-	Sandbox_InfectedWounds_sicknessOverTime_tooltip = "Percentage progression of the disease every ten minutes with an infected injury.<br>This setting does not take into account the character's natural regeneration, so the actual final percentage will be much lower.",
-}	
