@@ -37,16 +37,18 @@ local function EveryOneMinute()
                 elseif player:HasTrait('ProneToIllness') then
                     progressPercentage = progressPercentage * SandboxVars.InfectedWounds.proneToIllnessMultiplier
                 end
-                print(newFoodSickness)
-                print(progressPercentage)
+
+                -- print("before newFoodSickness: " .. tostring(newFoodSickness))
+                -- print("modData.playerFoodSickness: " .. tostring(modData.playerFoodSickness))
+
                 newFoodSickness = math.min(newFoodSickness + progressPercentage, 100)
+                newFoodSickness = math.max(newFoodSickness, currentFoodSickness)
                 modData.playerFoodSickness = newFoodSickness
                 bodyDamage:setFoodSicknessLevel(newFoodSickness)
 
-                print("currentFoodSickness: " .. tostring(currentFoodSickness))
-                print("newFoodSickness: " .. tostring(newFoodSickness))
-                print("modData.playerFoodSickness: " .. tostring(modData.playerFoodSickness))
-                print("Diff: " .. tostring(newFoodSickness - currentFoodSickness))
+                -- print("after newFoodSickness: " .. tostring(newFoodSickness))
+                -- print("progressPercentage: " .. tostring(progressPercentage))
+                -- print("Diff: " .. tostring(newFoodSickness - currentFoodSickness))
             else
                 modData.playerFoodSickness = 0
             end
